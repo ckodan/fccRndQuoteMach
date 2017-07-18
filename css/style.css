@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: green;
+  font-family: "Lucida Sans", sans-serif;
+  font-size: 22px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+#contentBox {
+  background: white;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 20px;
+  width: 50%
+}
+
+#quote {}
+
+p:nth-child(2) {
+  text-align: right;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  font-size: 18px;
+}
